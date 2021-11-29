@@ -87,9 +87,9 @@ a {
   background: #000; }
 
 .form-control {
-  height: 47px; }
+  height: 2rem; }
   .form-control:active, .form-control:focus {
-    border-color: #f23a2e; }
+    border-color: #cc6633; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -181,6 +181,8 @@ a {
     font-size: 2rem !important;
   } 
   .site-logo {
+    background-color: transparent;
+    border: none;
     font-size: 1rem;
   }
 }
